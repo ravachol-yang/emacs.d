@@ -14,6 +14,10 @@ degrade smoothly - see the CI build - but many enhancements may be
 unavailable if your Emacs is too old, and in general you should try
 to use the latest stable Emacs release like I do.
 
+## Plugins
+- Project Management
+  - projectile
+
 ## Other requirements
 ?
 
