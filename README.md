@@ -15,10 +15,12 @@ unavailable if your Emacs is too old, and in general you should try
 to use the latest stable Emacs release like I do.
 
 ## Plugins
+- Appearance
+  - Dashboard
 - Project Management
-  - projectile
+  - Projectile
 - Language Support
-  - Racket (Geiser)
+  - Racket (Geiser)  
 
 ## Other requirements
 ?

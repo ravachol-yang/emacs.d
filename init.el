@@ -9,7 +9,7 @@
 ;; Produce backtraces when errors occur: can be helpful to diagnose startup issues
 
 (add-to-list 'load-path (expand-file-name "lisp" user-emacs-directory))
-
+
 ;; Bootstrap config
 
 (setq custom-file (locate-user-emacs-file "custom.el"))
@@ -20,11 +20,15 @@
 (require 'init-exec-path) ;; Set up $PATH
 
 ;; specific packages
-; project management
-(require 'init-projectile)
+; appearance
+(require 'init-dashboard)
+;; (require 'init-nerd-icons')
 
-; language support
-(require 'init-racket)
+; project management
+(require 'init-projectile)
+
+; language support
+(require 'init-racket)
 
 ;; Allow users to provide an optional "init-preload-local.el"
 (require 'init-preload-local nil t)
