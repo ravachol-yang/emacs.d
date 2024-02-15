@@ -23,6 +23,7 @@
 ; appearance
 (require 'init-themes)
 (require 'init-dashboard)
+(require 'init-nerd-icons)
 ;; (require 'init-nerd-icons')
 
 ; project management
