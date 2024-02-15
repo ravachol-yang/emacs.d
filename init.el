@@ -21,6 +21,7 @@
 
 ;; specific packages
 ; appearance
+(require 'init-themes)
 (require 'init-dashboard)
 ;; (require 'init-nerd-icons')
 
