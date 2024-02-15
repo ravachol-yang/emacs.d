@@ -17,6 +17,8 @@ to use the latest stable Emacs release like I do.
 ## Plugins
 - Project Management
   - projectile
+- Language Support
+  - Racket (Geiser)
 
 ## Other requirements
 ?

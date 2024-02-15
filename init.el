@@ -20,9 +20,11 @@
 (require 'init-exec-path) ;; Set up $PATH
 
 ;; specific packages
-
 ; project management
 (require 'init-projectile)
+
+; language support
+(require 'init-racket)
 
 ;; Allow users to provide an optional "init-preload-local.el"
 (require 'init-preload-local nil t)
