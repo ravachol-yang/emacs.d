@@ -2,6 +2,9 @@
 ;;; Commentary:
 ;;; Code:
 
+(add-to-list 'default-frame-alist '(width  . 130))
+(add-to-list 'default-frame-alist '(height . 50))
+
 (add-to-list 'custom-theme-load-path "~/.emacs.d/themes/")
 (maybe-require-package 'sublime-themes)
 (load-theme 'brin t)
