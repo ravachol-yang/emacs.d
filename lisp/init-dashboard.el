@@ -11,6 +11,13 @@
   (setq dashboard-startup-banner 'logo)
   (setq dashboard-display-icons-p t) ;; display icons on both GUI and terminal
   (setq dashboard-icon-type 'nerd-icons)
+  (setq dashboard-footer-messages '("Moriturus te salutat."
+				    "Happy happy joy joy!"
+				    "Ceterum censeo Cathaginem esse delendam."
+				    "..#]^@^@^@ NO CARRIER"
+				    "Fortitudine vincimus."
+				    "Post proelium, praemium."
+				    "Pulvis et umbra sumus."))
   (dashboard-setup-startup-hook))
 
 (setq initial-buffer-choice (lambda () (get-buffer-create "*dashboard*")))
