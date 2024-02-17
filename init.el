@@ -20,16 +20,18 @@
 (require 'init-exec-path) ;; Set up $PATH
 
 ;; specific packages
-; appearance
+;; appearance
 (require 'init-themes)
 (require 'init-dashboard)
 (require 'init-nerd-icons)
-;; (require 'init-nerd-icons')
 
-; project management
+;; project management
 (require 'init-projectile)
 
-; language support
+;; programming
+(require 'init-rainbow)
+
+;; language support
 (require 'init-racket)
 
 ;; Allow users to provide an optional "init-preload-local.el"

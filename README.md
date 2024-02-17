@@ -19,6 +19,8 @@ to use the latest stable Emacs release like I do.
   - Dashboard
 - Project Management
   - Projectile
+- Programming
+  - Rainbow Delimiters
 - Language Support
   - Racket (Geiser)  
 
