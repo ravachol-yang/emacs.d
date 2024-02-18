@@ -31,6 +31,7 @@
 ;; programming
 (require 'init-rainbow)
 (require 'init-company)
+(require 'init-paredit)
 
 ;; language support
 (require 'init-racket)

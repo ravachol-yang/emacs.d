@@ -109,5 +109,8 @@ BUFFER and ALIST are as for `display-buffer-full-frame'."
 ;; display line numbers
 (add-hook 'prog-mode-hook 'display-line-numbers-mode)
 
+;; electric pair mode
+(add-hook 'prog-mode-hook 'electric-pair-mode)
+
 (provide 'init-utils)
 ;;; init-utils.el ends here
