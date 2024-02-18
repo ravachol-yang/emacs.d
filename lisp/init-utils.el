@@ -105,6 +105,9 @@ BUFFER and ALIST are as for `display-buffer-full-frame'."
         (error "Cannot open tramp file")
       (browse-url (concat "file://" file-name)))))
 
+;; custom settings
+;; display line numbers
+(add-hook 'prog-mode-hook 'display-line-numbers-mode)
 
 (provide 'init-utils)
 ;;; init-utils.el ends here
