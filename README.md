@@ -22,7 +22,7 @@ to use the latest stable Emacs release like I do.
 - Programming
   - Rainbow Delimiters
 - Language Support
-  - Racket (Geiser)  
+  - Racket (Racket Mode)  
 
 ## Other requirements
 ?

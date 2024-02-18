@@ -1,8 +1,8 @@
-;;; init-racket.el --- Language support for Racket with geiser -*- lexical-binding: t -*-
+;;; init-racket.el --- Language support for Racket with racket-mode -*- lexical-binding: t -*-
 ;;; Commentary:
 ;;; Code:
 
-(maybe-require-package 'geiser-racket)
+(maybe-require-package 'racket-mode)
 
 (provide 'init-racket)
-;;; init-elpa.el ends here
+;;; init-racket.el ends here
