@@ -23,6 +23,8 @@ to use the latest stable Emacs release like I do.
   - Rainbow Delimiters
 - Language Support
   - Racket (Racket Mode)  
+- Enhance
+  - Counsel (ivy, counsel, swiper)
 
 ## Other requirements
 ?

@@ -34,6 +34,9 @@
 ;; language support
 (require 'init-racket)
 
+;; enhance
+(require 'init-counsel)
+
 ;; Allow users to provide an optional "init-preload-local.el"
 (require 'init-preload-local nil t)
 
