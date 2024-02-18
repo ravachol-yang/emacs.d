@@ -11,6 +11,11 @@
   (setq dashboard-startup-banner 'logo)
   (setq dashboard-display-icons-p t) ;; display icons on both GUI and terminal
   (setq dashboard-icon-type 'nerd-icons)
+  (setq dashboard-items '((projects . 5)
+                          (recents . 5)
+                          (bookmarks . 5)
+                          (agenda . 5)))
+  (setq dashboard-projects-backend 'projectile)
   (setq dashboard-footer-messages '("Moriturus te salutat."
 				    "Happy happy joy joy!"
 				    "Ceterum censeo Cathaginem esse delendam."
