@@ -30,6 +30,7 @@
 
 ;; programming
 (require 'init-rainbow)
+(require 'init-company)
 
 ;; language support
 (require 'init-racket)

@@ -21,6 +21,7 @@ to use the latest stable Emacs release like I do.
   - Projectile
 - Programming
   - Rainbow Delimiters
+  - Company Mode
 - Language Support
   - Racket (Racket Mode)  
 - Enhance
