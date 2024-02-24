@@ -1,4 +1,4 @@
-[![Build Status](https://github.com/purcell/emacs.d/workflows/CI/badge.svg)](https://github.com/purcell/emacs.d/actions)
+[![Build Status](https://github.com/ravachol-yang/emacs.d/workflows/CI/badge.svg)](https://github.com/ravachol-yang/emacs.d/actions)
 
 # A custom Emacs config
 
