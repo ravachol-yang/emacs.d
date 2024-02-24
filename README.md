@@ -28,6 +28,7 @@ to use the latest stable Emacs release like I do.
 - Language Support
   - Racket (Racket Mode)
   - Org (Org Mode)
+  - Markdown (Markdown Mode)
 - Enhance
   - Counsel (ivy, counsel, swiper)
   - Delight

@@ -43,6 +43,7 @@
 ;; language support
 (require 'init-racket)
 (require 'init-org)
+(require 'init-markdown)
 
 ;; enhance
 (require 'init-counsel)
