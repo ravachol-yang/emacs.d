@@ -26,7 +26,8 @@ to use the latest stable Emacs release like I do.
 - Version Control
   - Magit
 - Language Support
-  - Racket (Racket Mode)  
+  - Racket (Racket Mode)
+  - Org (Org Mode)
 - Enhance
   - Counsel (ivy, counsel, swiper)
   - Delight
