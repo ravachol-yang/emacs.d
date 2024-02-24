@@ -2,7 +2,8 @@
 ;;; Commentary:
 ;;; Code:
 
-(maybe-require-package 'nerd-icons)
+(use-package nerd-icons
+  :ensure t)
 
 (provide 'init-nerd-icons)
 ;;; init-nerd-icons.el ends here

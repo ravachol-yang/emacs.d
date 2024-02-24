@@ -2,10 +2,12 @@
 ;;; Commentary:
 ;;; Code:
 
-(maybe-require-package 'racket-mode)
-(add-hook 'racket-mode-hook 'paredit-mode)
-(add-hook 'racket-repl-mode-hook 'electric-pair-mode)
-(add-hook 'racket-mode-hook 'racket-xp-mode)
+(use-package racket-mode
+  :ensure t
+  :config
+  (add-hook 'racket-mode-hook 'paredit-mode)
+  (add-hook 'racket-repl-mode-hook 'electric-pair-mode)
+  (add-hook 'racket-mode-hook 'racket-xp-mode))
 
 (provide 'init-racket)
 ;;; init-racket.el ends here

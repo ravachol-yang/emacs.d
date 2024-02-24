@@ -13,13 +13,15 @@
 ;; (maybe-require-package 'sublime-themes)
 
 ;; Dracula theme
-(maybe-require-package 'dracula-theme)
+(use-package dracula-theme
+  :ensure t)
 
 ;; Timu's themes
 ;; (maybe-require-package 'timu-spacegrey-theme)
-(maybe-require-package 'timu-rouge-theme)
+(use-package timu-rouge-theme
+  :ensure t)
 
-(load-theme 'timu-rouge t)
+(load-theme 'dracula t)
 
 (provide 'init-themes)
 ;;; init-themes.el ends here

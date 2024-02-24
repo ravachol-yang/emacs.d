@@ -2,7 +2,8 @@
 ;;; Commentary:
 ;;; Code:
 
-(maybe-require-package 'paredit)
+(use-package paredit
+  :ensure t)
 
 (provide 'init-paredit)
 ;;; init-paredit.el ends here
