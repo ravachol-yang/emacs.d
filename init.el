@@ -12,6 +12,10 @@
 
 ;; Bootstrap config
 
+(require 'server)
+(unless (server-running-p)
+  (server-start))
+
 (setq custom-file (locate-user-emacs-file "custom.el"))
 (require 'init-utils)
 (require 'init-site-lisp) ;; Must come before elpa, as it may provide package.el
