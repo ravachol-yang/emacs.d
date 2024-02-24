@@ -2,6 +2,8 @@
 ;;; Commentary:
 ;;; Code:
 
+(add-to-list 'default-frame-alist
+             '(font . "Hack Nerd Font Mono-10"))
 (add-to-list 'default-frame-alist '(width  . 130))
 (add-to-list 'default-frame-alist '(height . 50))
 
