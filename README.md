@@ -23,6 +23,8 @@ to use the latest stable Emacs release like I do.
   - Rainbow Delimiters
   - Company Mode
   - Paredit
+- Version Control
+  - Magit
 - Language Support
   - Racket (Racket Mode)  
 - Enhance

@@ -33,6 +33,9 @@
 (require 'init-company)
 (require 'init-paredit)
 
+;; version  control
+(require 'init-magit)
+
 ;; language support
 (require 'init-racket)
 
