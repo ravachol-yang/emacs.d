@@ -2,7 +2,10 @@
 ;;; Commentary:
 ;;; Code:
 
-(maybe-require-package 'counsel)
+(use-package counsel
+  :ensure t
+  :delight counsel-mode
+  :delight ivy-mode)
 
 (ivy-mode)
 (counsel-mode)

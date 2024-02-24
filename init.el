@@ -38,6 +38,7 @@
 
 ;; enhance
 (require 'init-counsel)
+(require 'init-delight)
 
 ;; Allow users to provide an optional "init-preload-local.el"
 (require 'init-preload-local nil t)

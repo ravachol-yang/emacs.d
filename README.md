@@ -27,6 +27,7 @@ to use the latest stable Emacs release like I do.
   - Racket (Racket Mode)  
 - Enhance
   - Counsel (ivy, counsel, swiper)
+  - Delight
 
 ## Other requirements
 ?

@@ -2,7 +2,9 @@
 ;;; Commentary:
 ;;; Code:
 
-(maybe-require-package 'company)
+(use-package company
+  :ensure t
+  :delight company-mode)
 (add-hook 'after-init-hook 'global-company-mode)
 
 (setq company-idle-delay
