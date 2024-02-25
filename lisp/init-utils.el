@@ -112,9 +112,5 @@ BUFFER and ALIST are as for `display-buffer-full-frame'."
 ;; electric pair mode
 (add-hook 'prog-mode-hook 'electric-pair-mode)
 
-;; pinentry for GnuPG
-(setq epa-pinentry-mode 'loopback)
-(pinentry-start)
-
 (provide 'init-utils)
 ;;; init-utils.el ends here
