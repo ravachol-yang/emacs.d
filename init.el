@@ -38,7 +38,6 @@
 (require 'init-paredit)
 
 ;; version  control
-(require 'init-gpg)
 (require 'init-magit)
 
 ;; language support
