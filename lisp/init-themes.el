@@ -9,19 +9,19 @@
 
 (add-to-list 'custom-theme-load-path "~/.emacs.d/themes/")
 
-;; Sublime themes
-;; (maybe-require-package 'sublime-themes)
-
 ;; Dracula theme
 (use-package dracula-theme
   :ensure t)
 
+;; Nord theme
+(use-package nord-theme
+  :ensure t)
+
 ;; Timu's themes
-;; (maybe-require-package 'timu-spacegrey-theme)
 (use-package timu-rouge-theme
   :ensure t)
 
-(load-theme 'dracula t)
+(load-theme 'nord t)
 
 (provide 'init-themes)
 ;;; init-themes.el ends here
