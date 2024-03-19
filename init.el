@@ -10,6 +10,9 @@
 
 (add-to-list 'load-path (expand-file-name "lisp" user-emacs-directory))
 
+;; Garbage collection
+(setq gc-cons-threshold (* 128 1024 1024))
+
 ;; Bootstrap config
 
 (require 'server)
