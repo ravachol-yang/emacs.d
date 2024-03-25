@@ -47,6 +47,7 @@
 (require 'init-racket)
 (require 'init-org)
 (require 'init-markdown)
+(require 'init-yaml)
 
 ;; enhance
 (require 'init-counsel)

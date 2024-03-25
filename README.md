@@ -29,6 +29,7 @@ to use the latest stable Emacs release like I do.
   - Racket (Racket Mode)
   - Org (Org Mode)
   - Markdown (Markdown Mode)
+  - YAML (Yaml Mode)
 - Enhance
   - Counsel (ivy, counsel, swiper)
   - Delight
