@@ -31,6 +31,7 @@
 (require 'init-themes)
 (require 'init-dashboard)
 (require 'init-nerd-icons)
+(require 'init-good-scroll)
 
 ;; project management
 (require 'init-projectile)

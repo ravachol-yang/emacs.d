@@ -17,6 +17,7 @@ to use the latest stable Emacs release like I do.
 ## Plugins
 - Appearance
   - Dashboard
+  - Good Scroll
 - Project Management
   - Projectile
 - Programming
