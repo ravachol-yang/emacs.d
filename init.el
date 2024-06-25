@@ -45,6 +45,7 @@
 (require 'init-magit)
 
 ;; language support
+(require 'init-c)
 (require 'init-racket)
 (require 'init-org)
 (require 'init-markdown)
